@@ -13,10 +13,8 @@
 .product-div {
   text-align: center;
   color: white;
-  padding: 20px;
   /* add an overlay on top of the image */
-  width: 30%;
-  width: 400px;
+  width: 33%;
   height: 400px;
   display: flex;
   flex-direction: column;

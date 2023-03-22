@@ -1,0 +1,134 @@
+.honor-component-container {
+  display: flex;
+  text-align: center;
+  height: 600px;
+  background-image: url("../assets/images/camouflage_blue.png");
+  display: flex;
+  flex-direction: column;
+}
+
+.honor__title {
+  color: white;
+  align-items: start;
+  margin-top: 30px;
+}
+
+.honor__description {
+  color: white;
+  margin: auto;
+  width: 550px;
+  font-size: smaller;
+  line-height: 25px;
+  margin-bottom: 10px;
+}
+
+.honor__image {
+  margin-bottom: 20px;
+}
+
+.my-component-button {
+  background-color: red;
+  color: white;
+  border: none;
+  font-weight: bold;
+  padding: 10px 20px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.honor2-component-container {
+  display: flex;
+  text-align: center;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.honor2__title {
+  color: black;
+  align-items: start;
+  margin-top: 30px;
+}
+
+.honor2__description {
+  color: black;
+  margin: auto;
+  width: 760px;
+  font-size: smaller;
+  line-height: 25px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.honor2__image {
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.my-component-button2 {
+  background-color: transparent;
+  color: black;
+  border: none;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: solid 1px rgba(0, 0, 0, 0.2);
+  width: 450px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.honor3-component-container {
+  display: flex;
+  text-align: center;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.honor3__title {
+  color: white;
+  align-items: start;
+  margin-top: 30px;
+}
+
+.honor3__description {
+  color: white;
+  margin: auto;
+  width: 760px;
+  font-size: smaller;
+  line-height: 25px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.honor3__image {
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.my-component-input {
+  color: white;
+  border: none;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: solid 1px rgba(0, 0, 0, 0.2);
+  width: 450px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.my-component-button3 {
+  background-color: red;
+  color: white;
+  border: none;
+  font-weight: bold;
+  padding: 10px 20px;
+  margin: 20px;
+  cursor: pointer;
+}/*# sourceMappingURL=Honor.css.map */
