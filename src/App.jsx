@@ -2,6 +2,7 @@ import "@fortawesome/fontawesome-free/css/all.css";
 import Header from "./Components/Header";
 import Hero from "./Components/Hero";
 import Navbar from "./Components/Navbar";
+import Products from "./Components/Products";
 
 const App = () => {
   return (
@@ -9,6 +10,7 @@ const App = () => {
       <Header />
       <Navbar />
       <Hero />
+      <Products />
     </>
   );
 };

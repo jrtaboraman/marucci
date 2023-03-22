@@ -1,0 +1,72 @@
+.product-component-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 500px;
+  background-image: url("../assets/images/camouflage_blue.png");
+  background-color: gray;
+  background-blend-mode: screen;
+  background-size: cover;
+  background-position: center;
+}
+
+.product-div {
+  text-align: center;
+  color: white;
+  padding: 20px;
+  /* add an overlay on top of the image */
+  width: 30%;
+  width: 400px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-image1 {
+  width: 80%;
+  height: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: white;
+  background-image: url("../assets/images/MVE3AP5-VOL.png");
+}
+.product-image2 {
+  width: 80%;
+  height: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: white;
+  background-image: url("../assets/images/MBVLRBP-VOL.png");
+}
+.product-image3 {
+  width: 80%;
+  height: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: white;
+  background-image: url("../assets/images/MBGBKSMFW-VOL.png");
+}
+
+.product-name {
+  font-size: 1em;
+  margin-top: 10px;
+}
+
+.product-price {
+  font-size: 1em;
+  margin-top: 5px;
+}
+
+.product-button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 20px;
+  cursor: pointer;
+}
