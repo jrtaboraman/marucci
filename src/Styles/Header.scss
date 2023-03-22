@@ -1,0 +1,18 @@
+.header {
+  background-color: #222222;
+  border-bottom: 1px solid #e6e6e6;
+  height: 40px;
+  position: fixed;
+  color: #e6e6e6;
+  top: 0;
+  width: 100%;
+  margin-bottom: 20px;
+  align-items: center;
+  text-align: center;
+  font-weight: bold;
+  font-size: small;
+}
+
+.header__span {
+  font-size: smaller;
+}
