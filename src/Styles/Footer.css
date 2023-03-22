@@ -1,0 +1,34 @@
+.footer {
+  background-color: #222222;
+  color: #ffffff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+.column {
+  width: 100%;
+  max-width: 15rem;
+}
+
+.title {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: smaller;
+}
+
+.list li {
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+}
+
+.list li:hover {
+  text-decoration: underline;
+} /*# sourceMappingURL=Footer.css.map */
