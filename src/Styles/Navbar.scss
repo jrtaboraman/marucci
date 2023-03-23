@@ -1,3 +1,5 @@
+@import "../breakpoints/breakpoints.scss";
+
 .navbar {
   width: 100%;
   height: 60px;
@@ -13,12 +15,40 @@
   display: flex;
   justify-content: space-between;
   margin-top: 70px;
+  @include media("<=tablet") {
+    height: 100%;
+    align-items: center;
+    justify-content: space-around;
+  }
 }
 
 .search-bar {
   display: flex;
   align-items: center;
+  width: 250px;
   border-bottom: 1px solid #ccc;
+  @include media("<=tablet") {
+    display: none;
+  }
+}
+
+.search-bar2 {
+  @include media("<=tablet") {
+    display: flex;
+    align-items: center;
+    width: 250px;
+    border-bottom: 1px solid #ccc;
+    margin-left: 40px;
+  }
+  @include media(">tablet") {
+    display: none;
+  }
+}
+
+.hamburger {
+  @include media(">tablet") {
+    display: none;
+  }
 }
 
 .search-bar__input {
@@ -32,10 +62,28 @@
   color: #ccc;
   font-size: 1.5rem;
   margin-right: 0.5rem;
+  @include media("<=tablet") {
+    font-size: 1rem;
+  }
+}
+
+.search-bar__icon2 {
+  @include media("<=tablet") {
+    font-size: 1rem;
+    color: black;
+    font-size: 1.5rem;
+    margin-top: 10px;
+  }
+  @include media(">tablet") {
+    display: none;
+  }
 }
 
 .header__logo {
   max-width: 150px;
+  @include media(">tablet") {
+    margin-right: 300px;
+  }
 }
 
 .header__logo img {
@@ -54,6 +102,9 @@
   margin-right: 1rem;
   font-size: small;
   font-weight: bold;
+  @include media("<=tablet") {
+    display: none;
+  }
 }
 
 .header__cart {
@@ -64,6 +115,9 @@
 .menu {
   background-color: white;
   padding: 1rem;
+  @include media("<=tablet") {
+    display: none;
+  }
 }
 
 .menu__list {

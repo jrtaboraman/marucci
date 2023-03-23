@@ -44,11 +44,8 @@ const Honor = () => {
         </div>
       </div>
       <div className="honor3-component-container">
+        <h3 className="honor3__title">STAY UP TO DATE ON EVERYTHING MARUCCI</h3>
         <div className="honor3__div">
-          <h3 className="honor3__title">
-            STAY UP TO DATE ON EVERYTHING MARUCCI
-          </h3>
-
           <input
             className="my-component-input"
             placeholder="Enter Your Email"

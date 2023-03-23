@@ -1,3 +1,8 @@
+/**
+*
+* Testing
+*
+**/
 .product-component-container {
   display: flex;
   justify-content: space-around;
@@ -8,6 +13,11 @@
   background-blend-mode: screen;
   background-size: cover;
   background-position: center;
+}
+@media (max-width: 768px) {
+  .product-component-container {
+    display: none;
+  }
 }
 
 .product-div {
@@ -20,6 +30,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+@media (max-width: 768px) {
+  .product-div {
+    width: 100%;
+  }
 }
 
 .product-image1 {
@@ -52,6 +67,36 @@
   background-image: url("../assets/images/MBGBKSMFW-VOL.png");
 }
 
+.product-image4 {
+  width: 80%;
+  height: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: white;
+  background-image: url("../assets/images/MVE3AP5-VOL.png");
+}
+
+.product-image5 {
+  width: 80%;
+  height: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: white;
+  background-image: url("../assets/images/MBVLRBP-VOL.png");
+}
+
+.product-image6 {
+  width: 80%;
+  height: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: white;
+  background-image: url("../assets/images/MBGBKSMFW-VOL.png");
+}
+
 .product-name {
   font-size: 1em;
   margin-top: 10px;
@@ -67,6 +112,41 @@
   color: white;
   border: none;
   padding: 10px 20px;
-  margin-top: 20px;
+  margin-bottom: 40px;
   cursor: pointer;
+}
+
+.container {
+  width: 100%;
+  height: 550px; /* set the height of the container */
+  overflow: auto; /* enable scrolling within the container */
+  white-space: nowrap; /* prevent line breaks between divs */
+  background-image: url("../assets/images/camouflage_blue.png");
+}
+@media (min-width: 768px) {
+  .container {
+    display: none;
+  }
+}
+.container .inner {
+  display: inline-block;
+  width: 100%;
+  height: 500px; /* set the height of each div */
+}
+
+.swiper__container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 500px;
+  background-image: url("../assets/images/camouflage_blue.png");
+  background-color: gray;
+  background-blend-mode: screen;
+  background-size: cover;
+  background-position: center;
+}
+@media (min-width: 768px) {
+  .swiper__container {
+    display: none;
+  }
 }/*# sourceMappingURL=Products.css.map */

@@ -1,3 +1,5 @@
+@import "../breakpoints/breakpoints.scss";
+
 .footer {
   background-color: #222222;
   color: #ffffff;
@@ -10,6 +12,10 @@
 .column {
   width: 100%;
   max-width: 15rem;
+  @include media("<=tablet") {
+    max-width: 100%;
+    text-align: center;
+  }
 }
 
 .title {

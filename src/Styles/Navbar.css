@@ -1,3 +1,8 @@
+/**
+*
+* Testing
+*
+**/
 .navbar {
   width: 100%;
   height: 60px;
@@ -14,11 +19,45 @@
   justify-content: space-between;
   margin-top: 70px;
 }
+@media (max-width: 768px) {
+  .marucci {
+    height: 100%;
+    align-items: center;
+    justify-content: space-around;
+  }
+}
 
 .search-bar {
   display: flex;
   align-items: center;
+  width: 250px;
   border-bottom: 1px solid #ccc;
+}
+@media (max-width: 768px) {
+  .search-bar {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .search-bar2 {
+    display: flex;
+    align-items: center;
+    width: 250px;
+    border-bottom: 1px solid #ccc;
+    margin-left: 40px;
+  }
+}
+@media (min-width: 769px) {
+  .search-bar2 {
+    display: none;
+  }
+}
+
+@media (min-width: 769px) {
+  .hamburger {
+    display: none;
+  }
 }
 
 .search-bar__input {
@@ -33,9 +72,33 @@
   font-size: 1.5rem;
   margin-right: 0.5rem;
 }
+@media (max-width: 768px) {
+  .search-bar__icon {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .search-bar__icon2 {
+    font-size: 1rem;
+    color: black;
+    font-size: 1.5rem;
+    margin-top: 10px;
+  }
+}
+@media (min-width: 769px) {
+  .search-bar__icon2 {
+    display: none;
+  }
+}
 
 .header__logo {
   max-width: 150px;
+}
+@media (min-width: 769px) {
+  .header__logo {
+    margin-right: 300px;
+  }
 }
 
 .header__logo img {
@@ -54,6 +117,11 @@
   font-size: small;
   font-weight: bold;
 }
+@media (max-width: 768px) {
+  .header__account {
+    display: none;
+  }
+}
 
 .header__cart {
   font-size: 1.2rem;
@@ -63,6 +131,11 @@
 .menu {
   background-color: white;
   padding: 1rem;
+}
+@media (max-width: 768px) {
+  .menu {
+    display: none;
+  }
 }
 
 .menu__list {

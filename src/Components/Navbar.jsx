@@ -2,6 +2,7 @@ import React from "react";
 import "../Styles/Navbar.css";
 import { AiOutlineSearch } from "react-icons/ai";
 import { BsFillCartFill } from "react-icons/bs";
+import { GiHamburgerMenu } from "react-icons/gi";
 import logo from "../assets/images/image_2023-03-21_145232999.png";
 
 const Navbar = () => {
@@ -16,6 +17,9 @@ const Navbar = () => {
             placeholder="Search"
           />
         </div>
+        <div>
+          <GiHamburgerMenu className="hamburger" />
+        </div>
         <div className="header__logo">
           <img src={logo} alt="Marucci Sports" />
         </div>
@@ -25,6 +29,15 @@ const Navbar = () => {
           <BsFillCartFill className="header__cart" />
         </div>
       </div>
+      <div className="search-bar2">
+        <AiOutlineSearch className="search-bar__icon2" />
+        <input className="search-bar__input" type="text" placeholder="Search" />
+      </div>
+      <input111
+        className="search-bar__input"
+        type="text"
+        placeholder="Search"
+      />
       <nav className="menu">
         <ul className="menu__list">
           <li className="menu__item">
